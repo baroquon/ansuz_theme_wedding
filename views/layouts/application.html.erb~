@@ -16,7 +16,31 @@
 	  <%= theme_javascript_link_tag 'date', 'flash_load', 'rollovers', 'slideshow', 'validate' -%>
   </head>
   <body>
-    <div id='wrapper'>
+  <div id="main_container">
+	  <div class="parrot"><img src="images/arrow.jpg" alt="" title=""></div>
+	  <div class="main_content">
+    	<div id="header">
+        	<div class="logo"><a href="#"><img src="images/" alt="" title="" border="0"></a></div>
+      </div>
+      <div class="top_center_box"></div>
+      <div class="center_box">
+        <%= render :partial => "page/top_nav" -%>
+        <%= yield :sidebar -%>
+      <div id="footer">
+      </div>
+		</div> <!--end of center box-->
+	</div> <!--end of main content-->
+</div> <!--end of main container-->
+
+
+
+
+
+
+
+
+
+<div id='wrapper'>
       <div id='content_wrapper'>
         <div id="main">
           <div id='header'>
@@ -24,9 +48,6 @@
               <span class='logo'></span>
               <span class='logotext'><%= get_setting('site_title') %></span>
             </h1>
-            <span class='credits'>
-              Custom software development for businesses.
-            </span>
             <%= show_testimonials -%>
           </div>
           <%= render :partial => "page/top_nav" -%>

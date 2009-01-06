@@ -65,7 +65,7 @@ background-color:#FFFFFF;
 }
 /*---------------- top-nav tab----------------------*/
 #navigation{
-width:673px;
+width:663px;
 height:51px;
 font-family:Arial, Helvetica, sans-serif;
 padding:0px;
