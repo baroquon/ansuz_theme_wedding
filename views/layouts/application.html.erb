@@ -1,0 +1,54 @@
+<!-- Generated Using Ansuz CMS -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <title><%= title_helper %></title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta name="description" content="Brandon and Sarah Wedding Time." />
+  	<meta name="keywords" content="marriage" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon" />
+    <link rel="icon"          href="favicon.ico" type="image/vnd.microsoft.icon" />
+    <%= manage_ansuz_stylesheets %>
+    <%= manage_ansuz_javascripts %>
+	  <%= theme_stylesheet_link_tag 'base' -%>
+	  <%= theme_javascript_link_tag 'date', 'flash_load', 'rollovers', 'slideshow', 'validate' -%>
+  </head>
+  <body>
+    <div id='wrapper'>
+      <div id='content_wrapper'>
+        <div id="main">
+          <div id='header'>
+            <h1>
+              <span class='logo'></span>
+              <span class='logotext'><%= get_setting('site_title') %></span>
+            </h1>
+            <%= show_testimonials -%>
+          </div>
+          <%= render :partial => "page/top_nav" -%>
+          <div id='content'>
+            <%= render :partial => "page/breadcrumb" if (@page && (@page != @root)) -%>
+            <%= @content_for_layout -%>
+            <%= render :partial => "page/child_nav" if (@page && (!@page.children.empty?)) -%>
+            <div id='sidebar'>
+              <%= yield :sidebar -%>
+            </div>
+          </div>
+          <div class='clear'></div>
+        </div> 
+      </div>
+      <%= render :partial => "page/footer" -%>
+    </div>
+    <script type='text/javascript'>
+      jQuery(document).ready(function() { 
+        // setup scrolling with this one JavaScript call 
+        jQuery("div.scrollable").scrollable({ 
+          // scrolling configuration 
+          horizontal:true,  
+          size:1
+        });  
+      });
+    </script>
+  </body>
+</html>

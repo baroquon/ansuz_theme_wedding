@@ -1,0 +1,11 @@
+<div class='blog_post'>
+  <div class="curved">
+    <img src="/themes/isotope11/images/curved_header.png" alt="Curved_header" />
+    <div class='contents'>
+      <h2 class='title'><%=h article.title -%></h2>
+      <h3 class='time'><em><%= article.created_at.strftime("%B %e\n%Y") -%></em></h3>
+      <%= article.contents -%>
+    </div>
+    <img src="/themes/isotope11/images/curved_footer.png" alt="Curved_footer" />
+  </div>
+</div>
