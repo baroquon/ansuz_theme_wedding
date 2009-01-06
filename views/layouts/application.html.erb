@@ -20,7 +20,7 @@
 	  <div class="parrot"><img src="images/arrow.jpg" alt="" title=""></div>
 	  <div class="main_content">
     	<div id="header">
-        	<div class="logo"><a href="#"><img src="images/" alt="" title="" border="0"></a></div>
+        	<div class="logo"><a href="#"></a></div>
       </div>
       <div class="top_center_box"></div>
       <div class="center_box">
@@ -29,44 +29,13 @@
          </div>
         <%= yield :sidebar -%>
       <div id="footer">
+        <%= render :partial => "page/footer" -%>
       </div>
+     
 		</div> <!--end of center box-->
 	</div> <!--end of main content-->
 </div> <!--end of main container-->
-
-
-
-
-
-
-
-
-
-<div id='wrapper'>
-      <div id='content_wrapper'>
-        <div id="main">
-          <div id='header'>
-            <h1>
-              <span class='logo'></span>
-              <span class='logotext'><%= get_setting('site_title') %></span>
-            </h1>
-            <%= show_testimonials -%>
-          </div>
-          <%= render :partial => "page/top_nav" -%>
-          <div id='content'>
-            <%= render :partial => "page/breadcrumb" if (@page && (@page != @root)) -%>
-            <%= @content_for_layout -%>
-            <%= render :partial => "page/child_nav" if (@page && (!@page.children.empty?)) -%>
-            <div id='sidebar'>
-              <%= yield :sidebar -%>
-            </div>
-          </div>
-          <div class='clear'></div>
-        </div> 
-      </div>
-      <%= render :partial => "page/footer" -%>
-    </div>
-    <script type='text/javascript'>
+ <script type='text/javascript'>
       jQuery(document).ready(function() { 
         // setup scrolling with this one JavaScript call 
         jQuery("div.scrollable").scrollable({ 

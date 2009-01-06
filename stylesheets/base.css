@@ -95,15 +95,15 @@ margin:0px;
 background:url(images/divider.gif) no-repeat center;
 }
 
-a.nav:link, a.nav:visited {
+ul.top-nav a:link, ul.top-nav a:visited {
 display:block; float:left; padding:0px; margin:0;width: auto; margin:0px 14px 0px 14px; text-align:center;
 text-decoration:none; background:none; color:#62584d;}
 
-a.nav_selected:link, a.nav_selected:visited {
+ul.top-nav a:link, ul.top-nav a:visited, ul.top-nav li.active a{
 display:block; float:left; padding:0px; margin:0;width: auto;margin:0px 14px 0px 14px;text-align:center;
 text-decoration:none; color: #62584d; background:url(images/top-nav_arrow.gif) no-repeat top center;}
 
-a.nav:hover {
+ul.top-nav a:hover {
 color: #62584d; text-decoration:none;background:url(images/top-nav_arrow.gif) no-repeat top center;}
 
 /*---------------middle_box-----------------*/
