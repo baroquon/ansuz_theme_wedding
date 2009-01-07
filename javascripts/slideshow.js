@@ -1,12 +1,12 @@
 // JavaScript Document
 
 function slideSwitch() {
-    var $active = $('#slideshow IMG.active');
+    var $active = jQuery('#slideshow IMG.active');
 
-    if ( $active.length == 0 ) $active = $('#slideshow IMG:last');
+    if ( $active.length == 0 ) $active = jQuery('#slideshow IMG:last');
 
     var $next =  $active.next().length ? $active.next()
-        : $('#slideshow IMG:first');
+        : jQuery('#slideshow IMG:first');
 
     $active.addClass('last-active');
 
@@ -17,7 +17,7 @@ function slideSwitch() {
         });
 }
 
-$(document).ready(function() {
+jQuery(document).ready(function() {
     setInterval( "slideSwitch()", 5000 );
 });
 
