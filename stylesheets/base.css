@@ -1,6 +1,6 @@
 body
 {
-background:#fff url(images/bg.jpg) repeat-x left -50px;
+background:#fff url(/themes/ansuz_theme_wedding/images/bg.jpg) repeat-x left -50px;
 padding:0;
 font-family:Verdana, Arial, Helvetica, sans-serif;
 font-size:10px;
@@ -34,7 +34,7 @@ height:auto;
 margin:auto;
 padding:0px;
 position:relative;
-background:url(images/top_bg.jpg) no-repeat left -50px;
+background:url(/themes/ansuz_theme_wedding/images/top_bg.jpg) no-repeat left -50px;
 }
 .main_content{
 width:700px;
@@ -57,7 +57,7 @@ padding:55px 0 0 115px;
 .top_center_box{
 width:700px;
 height:19px;
-background:url(images/top_box.gif) no-repeat center;
+background:url(/themes/ansuz_theme_wedding/images/top_box.gif) no-repeat center;
 }
 .center_box{
 width:700px;
@@ -70,7 +70,7 @@ height:51px;
 font-family:Arial, Helvetica, sans-serif;
 padding:0px;
 margin:auto;
-background:url(images/top-nav_bg.gif) no-repeat center;
+background:url(/themes/ansuz_theme_wedding/images/top-nav_bg.gif) no-repeat center;
 }
 #navigation h3{
   display:none;
@@ -92,7 +92,7 @@ width:1px;
 height:51px;
 padding:0px ;
 margin:0px;
-background:url(images/divider.gif) no-repeat center;
+background:url(/themes/ansuz_theme_wedding/images/divider.gif) no-repeat center;
 }
 
 ul.top-nav a:link, ul.top-nav a:visited {
@@ -101,16 +101,16 @@ text-decoration:none; background:none; color:#62584d;}
 
 ul.top-nav a:link, ul.top-nav a:visited, ul.top-nav li.active a{
 display:block; float:left; padding:0px; margin:0;width: auto;margin:0px 14px 0px 14px;text-align:center;
-text-decoration:none; color: #62584d; background:url(images/top-nav_arrow.gif) no-repeat top center;}
+text-decoration:none; color: #62584d; background:url(/themes/ansuz_theme_wedding/images/top-nav_arrow.gif) no-repeat top center;}
 
 ul.top-nav a:hover {
-color: #62584d; text-decoration:none;background:url(images/top-nav_arrow.gif) no-repeat top center;}
+color: #62584d; text-decoration:none;background:url(/themes/ansuz_theme_wedding/images/top-nav_arrow.gif) no-repeat top center;}
 
 /*---------------middle_box-----------------*/
 .middle_box{
 width:654px;
 height:161px;
-background:url(images/center_box_bg.gif) no-repeat center;
+background:url(/themes/ansuz_theme_wedding/images/center_box_bg.gif) no-repeat center;
 margin:10px auto;
 }
 .middle_box_text_content{
@@ -121,7 +121,7 @@ height:auto;
 width:260px;
 height:63px;
 padding:5px;
-background:url(images/box_title_bg.png) no-repeat center;
+background:url(/themes/ansuz_theme_wedding/images/box_title_bg.png) no-repeat center;
 }
 p.middle_text{
 padding:0 0 0 15px;
@@ -135,7 +135,7 @@ padding:10px;
 .calendar_box{
 width:329px;
 height:185px;
-background:url(images/calendar_bg.gif) no-repeat center;
+background:url(/themes/ansuz_theme_wedding/images/calendar_bg.gif) no-repeat center;
 }
 .calendar_box_content{
 width:260px;
@@ -169,7 +169,7 @@ padding:5px 0 5px 0;
 width:42px;
 height:47px;
 float:left;
-background:url(images/calendar_icon.gif) no-repeat center;
+background:url(/themes/ansuz_theme_wedding/images/calendar_icon.gif) no-repeat center;
 text-align:center;
 line-height:47px;
 font-size:14px;
@@ -187,7 +187,7 @@ height:29px;
 display:block;
 float:right;
 margin:5px;
-background:url(images/link_more_bg.gif) no-repeat center;
+background:url(/themes/ansuz_theme_wedding/images/link_more_bg.gif) no-repeat center;
 text-decoration:none;
 color:#6c331f;
 text-align:center;
@@ -199,7 +199,7 @@ height:29px;
 display:block;
 float:right;
 margin:5px;
-background:url(images/link_more_bg_a.gif) no-repeat center;
+background:url(/themes/ansuz_theme_wedding/images/link_more_bg_a.gif) no-repeat center;
 text-decoration:none;
 color:#dcc1b7;
 text-align:center;
@@ -266,7 +266,7 @@ margin:0px;
 padding:5px;
 }
 .services ul li a{
-background:url(images/arrow.gif) no-repeat left;
+background:url(/themes/ansuz_theme_wedding/images/arrow.gif) no-repeat left;
 padding:0 0 0 25px;
 text-decoration:none;
 color:#416271;
@@ -289,7 +289,7 @@ height:16px;
 clear:both;
 color:#763c26;
 padding:30px 0 0 20px;
-background:url(images/footer_bg.gif) no-repeat center;
+background:url(/themes/ansuz_theme_wedding/images/footer_bg.gif) no-repeat center;
 }
 .clear{
   clear: both;
