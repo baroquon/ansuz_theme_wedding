@@ -26,11 +26,12 @@
       <div class="center_box">
         <div id="menu_tab">
           <%= render :partial => "page/top_nav" -%>
-         </div>
+        </div>
         <%= yield :sidebar -%>
-      <div id="footer">
+        <div id='content'>
+          <%= @content_for_layout -%>
+        </div>
         <%= render :partial => "page/footer" -%>
-      </div>
      
 		</div> <!--end of center box-->
 	</div> <!--end of main content-->

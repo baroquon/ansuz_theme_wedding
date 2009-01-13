@@ -1,0 +1,68 @@
+<div class="middle_box">
+<div class="middle_box_text_content">
+<div class="middle_box_title">&nbsp;</div>
+<p class="middle_text">Welcome to Sarah-Brandon.com. We hope you find the information here entertaining and helpful. If you have any questions that aren't aswered here please feel free to contact us.</p>
+</div>
+</div>
+<div class="left_content">
+<div class="calendar_box">
+<div class="calendar_box_content">
+<h1>Sarah and Brandon are getting married!</h1>
+<p>May 2, at 5pm.</p>
+<hr />
+We will be having our reception at the Florence Golf and County Club. Dinner will be served and we will be enjoying each other's company.   			We look forward to seing you there.  			<br />
+<br />
+Address:  			<br />
+450 COUNTRY CLUB DRIVE  			<br />
+FLORENCE, ALABAMA  			<br />
+35630
+<p>&nbsp;</p>
+</div>
+</div>
+<div class="news_left">
+<h1>Latest Comments</h1>
+<div class="news_box">
+<div class="calendar">23</div>
+<div class="news_content">
+<p><span>&quot;Lorem ipsum dolor sit amet&quot;</span><br />
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad  minim veniam</p>
+<a class="read_more" href="#">read more</a></div>
+</div>
+<div class="news_box">
+<div class="calendar">13</div>
+<div class="news_content">
+<p><span>&quot;Lorem ipsum dolor sit amet&quot;</span><br />
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad  minim veniam</p>
+<a class="read_more" href="#">read more</a></div>
+</div>
+</div>
+</div>
+<!--end of left content-->
+<div class="right_content">
+<h1>Latest Photos</h1>
+<div class="project_box">
+<div id="slideshow"><img class="active" src="/themes/ansuz_theme_wedding/images/home/home1.jpg" alt="" />  		  <img src="/themes/ansuz_theme_wedding/images/home/home2.jpg" alt="" />  		  <img src="/themes/ansuz_theme_wedding/images/home/home3.jpg" alt="" />  		  <img src="/themes/ansuz_theme_wedding/images/home/home4.jpg" alt="" />  		  <img src="/themes/ansuz_theme_wedding/images/home/home5.jpg" alt="" />  		  <img src="/themes/ansuz_theme_wedding/images/home/home6.jpg" alt="" /></div>
+</div>
+<br class="clear" />
+<h1 style="padding-top: 25px;">We are registered at:</h1>
+<div class="services">
+<ul>
+    <li><a title="" target="_blank" href="http://target.com">Target</a></li>
+    <li><a title="" target="_blank" href="http://dillards.com">Dillards</a></li>
+</ul>
+</div>
+<br class="clear" />
+<h1 style="padding-top: 25px;">Local hotels:</h1>
+<div class="services">
+<ul>
+    <li><a title="" target="_blank" href="http://target.com">Marriot</a></li>
+    <li><a title="" target="_blank" href="http://dillards.com">Jamison</a></li>
+</ul>
+</div>
+<div class="services">
+<ul>
+    <li><a title="" target="_blank" href="http://dillards.com">Super 8</a></li>
+    <li><a title="" target="_blank" href="http://dillards.com">Hampton</a></li>
+</ul>
+</div>
+</div>
