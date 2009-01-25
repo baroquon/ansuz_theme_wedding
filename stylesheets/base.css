@@ -70,7 +70,7 @@ height:51px;
 font-family:Arial, Helvetica, sans-serif;
 padding:0px;
 margin:auto;
-background:url(/themes/ansuz_theme_wedding/images/top-nav_bg.gif) no-repeat center;
+background:url(/themes/ansuz_theme_wedding/images/menu_bg.gif) no-repeat center;
 }
 #navigation h3{
   display:none;
@@ -101,7 +101,7 @@ text-decoration:none; background:none; color:#62584d;}
 
 ul#top-nav a:link, ul#top-nav a:visited, ul#top-nav li.active a{
 display:block; float:left; padding:0px; margin:0;width: auto;margin:0px 14px 0px 14px;text-align:center;
-text-decoration:none; color: #62584d; background:url(/themes/ansuz_theme_wedding/images/top-nav_arrow.gif) no-repeat top center;}
+text-decoration:none; color: #62584d; background:url(/themes/ansuz_theme_wedding/images/menu_arrow.gif) no-repeat top center;}
 
 ul#top-nav a:hover {
 color: #62584d; text-decoration:none;background:url(/themes/ansuz_theme_wedding/images/top-nav_arrow.gif) no-repeat top center;}
