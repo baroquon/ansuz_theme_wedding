@@ -141,6 +141,7 @@ background:url(/themes/ansuz_theme_wedding/images/calendar_bg.gif) no-repeat cen
 .calendar_box_content{
 width:260px;
 padding-left:53px;
+text-align:left;
 }
 .right_content{
 width:310px;
