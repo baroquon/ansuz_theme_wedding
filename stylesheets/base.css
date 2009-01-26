@@ -294,3 +294,15 @@ background:url(/themes/ansuz_theme_wedding/images/footer_bg.gif) no-repeat cente
 .clear{
   clear: both;
 }
+body{
+  text-align:center;
+}
+h1{
+  text-align: left;
+}
+#main_container{
+text-align:center;
+}
+.main_content {
+text-align:center;
+}
