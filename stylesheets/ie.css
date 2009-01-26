@@ -1,6 +1,12 @@
 body{
-  test-align:center;
+  text-align:center;
 }
 h1{
   text-align: left;
+}
+#main_container{
+text-align:center;
+}
+.main_content {
+text-align:center;
 }
