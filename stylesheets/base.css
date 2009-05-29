@@ -332,3 +332,69 @@ text-align:center;
 .main_content {
 text-align:center;
 }
+
+html{
+  background: #fff url(/themes/ansuz_theme_wedding/images/bg.jpg) repeat-x scroll left -50px;
+}
+
+#content h2{
+  display:none;
+}
+.page-plugin-1, .page-plugin-2{
+  float:left;
+  width: 327px;
+}
+.page-plugin-1{
+  margin-left:23px;
+}
+.page-plugin-1 .form-table, .page-plugin-2 .form-table{
+
+background:transparent url(/themes/ansuz_theme_wedding/images/calendar_bg.gif) no-repeat scroll center center;
+height:185px;
+width:329px;
+}
+.page-plugin-2 .form-table{
+  float:right;
+}
+.page-plugin-1 .form-table tr th, .page-plugin-2 .form-table tr th{
+    vertical-align:top;
+    text-align:right;
+   padding-top:12px;
+    padding-left:30px;
+}
+.page-plugin-1 .form-table tr td, .page-plugin-2 .form-table tr td{
+    vertical-align:top;
+    padding-top:9px;
+}
+.page-plugin-1 .form-table input, .page-plugin-2 .form-table input, .page-plugin-1 .form-table textarea, .page-plugin-2 .form-table textarea{
+    margin: 4px;
+    border: 1px solid green;
+}
+h3.rsvp{
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.left_content_back{
+float:left;
+padding:0 0 0 40px;
+width:300px;
+}.right_content_back{
+  float:left;
+padding:0 0 0 35px;
+width:310px;
+}
+ul.photos{
+  width: 658px;
+}
+.form-table td{
+  text-align:left;
+  padding-left: 4px;
+}
+#footer{
+  border-bottom: 1px solid #aaa;
+}
+.news_content a{
+  color: #6C331F;
+  text-decoration: underline;
+}
